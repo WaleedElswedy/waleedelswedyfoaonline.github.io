@@ -1,0 +1,47 @@
+body{margin-top:1%;background-color: #A0D6E4;}
+header{display:inline-block;border-radius: 10px;
+background-image:url('../images/2.jpg');
+background-repeat:no-repeat;
+background-size:cover;z-index:-1;
+background-blend-mode: overlay;
+width:100%;text-align:center; padding-bottom: 0.5%;
+}
+div.transbox {
+  background-color: #ffffff;
+  border: 1px solid transperancy;
+  opacity: 0.7;
+  margin: -2%;
+  display: inline;
+  border-radius: 7px;
+}
+div.transbox p {
+  font-weight: bold;
+  color: #000000;
+  display:inline;
+  padding: 3%;
+}
+.mainlinks {margin-right:4%;margin-top:1%;display:inline-block;z-index:1;
+background-color:white;
+color:red;
+opacity:0.9;
+font-family:arial;
+font-size:170%;
+text-decoration:none;
+box-sizing:border-box;
+border:solid 2px #000000;
+border-radius:7px;
+width:13%;
+padding:0.5%;}
+#name{color:#000000;z-index:1;
+text-shadow: 5px 7px 5px white,-7px -5px 5px white ;font-size:220%;text-decoration: underline;}
+#welcomenote{color:#51E15A;z-index:1;border:solid 1px transperancy;display: INLINE;padding: 0.25%;
+font-size:190%;}
+#section1 {display:inline-block;background-image:linear-gradient(to left,#99FFB3,#E0FFF9);margin-top:0.5%;padding: 2%;
+  float:right;width:17%;height:100vh;border-top: solid 2px transperancy;border-top-right-radius: 25px;}
+#section2 {display:block;background-color:white;margin:auto;padding: 1.5%;margin-top: 2%;
+  width:90.5%;border-radius: 10px;}
+.title{color:blue; text-decoration : none; font-weight: bold ; text-align: center;font-size: 190%;padding-top: 0.5%;
+}
+.list{font-size: 170%;text-align: center;color:black;text-decoration: none;line-height: 180%;}
+.mainlinks:hover {opacity:1;}
+#active {opacity:1;background-color:blue;color:white;}
