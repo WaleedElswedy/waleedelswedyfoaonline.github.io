@@ -1,5 +1,6 @@
 
 
+
 h1{display:inline;
 	position:absolute;}
 .body:before{background-image:url("../images/ag9.jpg");background-repeat:no-repeat;background-size:cover;background-attachment:fixed;
@@ -44,6 +45,32 @@ background-color:#6161FF;color:white;padding:1.5%;width:55%;height:35%;border:so
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 	.body:before{background-image: url("../images/2.jpg")}
+	#logo{width:13%;
+			position:relative;
+			left:47.5%;margin-top:3%;
+	}
+	.titleAr,.titleAr2{position:relative;left:5%;font-size:180%;top:5%;
+	}
+	.titleEn,.titleEn2{position:relative;left:-12%;font-size:175%;top:-1%;
+	}
+	.titleEn2{position:relative;left:2%;top:12%;
+	}
+	.titleAr2{position:relative;left:21%;top:12%;
+	}
+	#subtitle1{position:relative;top:20%;left:15%;font-size:160%;
+	}
+	#subtitle2{position:relative;top:20%;left:10%;font-size:150%;
+	}
+	#textfield{
+	}
+	#name{
+	}
+	#pass{
+	}
+	#enter{
+	}
+	#footer{
+	}
 
 }
 @media only screen
@@ -52,10 +79,21 @@ and (max-device-width : 480px) {
 		.body:before{background-image: url("../images/a.jpg")}
 
 	}
-	/* Large screens ----------- */
+
+
+
+
+
+	/* Large screens 19 inch--- */
 @media only screen
-and (min-width : 1824px) {
+and (min-width : 1280px) {
 	.body:before{background-image: url("../images/b.jpg")}
+
+}
+/* Large screens 20 inch--- */
+@media only screen
+and (min-width : 1600px) {
+	.body:before{background-image: url("../images/c.jpg")}
 
 }
 
