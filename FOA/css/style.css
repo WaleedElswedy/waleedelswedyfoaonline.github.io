@@ -19,7 +19,7 @@ h1{display:inline;
 		}
 .titleAr,.titleAr2{position:absolute;right:5%;font-size:250%;display:inline;margin-top: 3%;
 color:#ffffff;text-shadow:4px 4px 4px #000000,-4px -4px 4px black;}
-.titleEn,.titleEn2{position:absolute;left:3.5%;font-size:210%;color:#ffffff;text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
+.titleEn,.titleEn2{position:absolute;left:3.5%;font-siz	e:210%;color:#ffffff;text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
 	margin-top: 3%;}
 .titleEn2{position:absolute;left:5%;top:12%;display:inline}
 .titleAr2{position:absolute;right:8.5%;top:12%;display:inline;}
@@ -45,9 +45,12 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 	.body:before{background-image: url("../images/2.jpg")}
 
-
-
-
 }
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px) {
+		.body:before{background-image: url("../images/a.jpg")}
+
+	}
 
 
