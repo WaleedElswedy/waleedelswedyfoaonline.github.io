@@ -1,5 +1,6 @@
 
 
+
 h1{display:inline;
 	position:absolute;}
 .body:before{background-image:url("../images/ag9.jpg");background-repeat:no-repeat;background-size:cover;background-attachment:fixed;
@@ -49,27 +50,27 @@ and (max-device-width : 480px) {
 			position:relative;
 			left:47%;margin-top:3%;
 	}
-	.titleAr,.titleAr2{position:relative;left:7%;font-size:260%;top:5%;
+	.titleAr,.titleAr2{position:relative;left:7%;font-size:85%;top:5%;
 	}
-	.titleEn,.titleEn2{position:relative;left:-11.5%;font-size:260%;top:-1%;
+	.titleEn,.titleEn2{position:relative;left:-11.5%;font-size:85%;top:-1%;
 	}
 	.titleEn2{position:relative;left:3%;top:12%;
 	}
 	.titleAr2{position:relative;left:24%;top:12%;
 	}
-	#subtitle1{position:relative;top:30%;left:15%;font-size:255%;
+	#subtitle1{position:relative;top:30%;left:15%;font-size:85%;
 	}
-	#subtitle2{position:relative;top:20%;left:10%;font-size:255%;
+	#subtitle2{position:relative;top:20%;left:10%;font-size:85%;
 	}
-	#textfield{position:absolute;left:24%;top:43%;font-size:235%;
+	#textfield{position:absolute;left:22%;top:50%;font-size:85%;
 	}
 	#name{
 	}
 	#pass{
 	}
-	#enter{position:absolute;left:115%;top:30%;font-size:110%;
+	#enter{position:absolute;left:85%;top:25%;font-size:100%;width: 45%;height: 25%;
 	}
-	#footer{position: absolute;top:150%;width: 180%;left:18%;
+	#footer{position: relative;width: 100%;left:8%;margin: auto;
 	}
 
 }
@@ -96,6 +97,7 @@ and (min-width : 1600px) {
 	.body:before{background-image: url("../images/c.jpg")}
 
 }
+
 
 
 
