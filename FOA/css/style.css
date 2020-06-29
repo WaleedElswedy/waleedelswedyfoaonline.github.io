@@ -1,6 +1,5 @@
 
 
-
 h1{display:inline;
 	position:absolute;}
 .body:before{background-image:url("../images/ag9.jpg");background-repeat:no-repeat;background-size:cover;background-attachment:fixed;
@@ -97,8 +96,4 @@ and (min-width : 1600px) {
 	.body:before{background-image: url("../images/c.jpg")}
 
 }
-
-
-
-
 
