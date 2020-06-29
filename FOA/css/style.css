@@ -1,3 +1,4 @@
+
 h1{display:inline;
 	position:absolute;}
 .body:before{background-image:url("../images/ag9.jpg");background-repeat:no-repeat;background-size:cover;background-attachment:fixed;
@@ -11,31 +12,46 @@ h1{display:inline;
   height: 100%;
   filter: blur(3.2px);
 }
-.body {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 0;
-}
-#logo{	width:11.9%;
+
+
+#logo{width:10.2%;
 		position:absolute;
-		left:44.6%;margin-top:1%;
+		left:45.6%;margin-top:1.5%;
 		}
-.titleAr,.titleAr2{position:absolute;right:8%;line-height:2%;font-size:305%;font-family:andalus;display:inline;
-color:#ffffff;text-shadow:4px 4px 4px #000000;}
-.titleEn,.titleEn2{position:absolute;left:3.5%;line-height:2%;font-size:240%;margin-top:2.5%;color:#ffffff;text-shadow:4px 4px 4px #000000;}
-.titleEn2{position:absolute;left:9%;display:inline}
-.titleAr2{position:absolute;right:17%;display:inline}
-#subtitle1{display:inline-block;color:#ffffff;position:absolute;left:25%;top:113%;font-size:240%;color:#ffffff;text-shadow:4px 4px 4px #000000;
+.titleAr,.titleAr2{position:absolute;right:5%;font-size:275%;font-family:andalus;display:inline;margin-top: 2%;
+color:#ffffff;text-shadow:4px 4px 4px #000000,-4px -4px 4px black;}
+.titleEn,.titleEn2{position:absolute;left:3.5%;font-size:220%;color:#ffffff;text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
+	margin-top: 3%;}
+.titleEn2{position:absolute;left:5%;top:12%;display:inline}
+.titleAr2{position:absolute;right:8.5%;top:12%;display:inline;}
+#subtitle1{color:#ffffff;position:absolute;top:31%;left:27%;font-size:210%;color:#ffffff;
+	text-shadow:4px 4px 4px #000000,-4px -4px 4px black;margin-top: 3%;
 }
-#subtitle2{display:inline-block;color:#000000;position:absolute;left:22.5%;top:150%;font-size:240%;color:#ffffff;text-shadow:4px 4px 4px #000000;
+#subtitle2{color:#000000;position:absolute;font-size:210%;top:40%;left:25%;
+	color:#ffffff;text-shadow:4px 4px 4px #000000,-4px -4px 4px black;margin-top: 3%;
 }
-#textfield{display:inline-block;position:absolute;left:37%;bottom:-180%;font-size:145%;color:#ffffff;
+#textfield{display:inline;position:absolute;left:37%;top:58%;font-size:145%;color:#ffffff;
 text-shadow:5px 5px 4px #000000;font-family:Helvetica;
 ;}
-#name{font-size:80%;border-radius:7px;font-family:Helvetica;font-style: italic;padding: 2.5%;display:inline-block;
+#name{font-size:80%;border-radius:7px;font-family:Helvetica;padding: 2.5%;display:inline;
 ;}
-#pass{font-size:80%;border-radius:7px;font-family:Helvetica;font-style: italic;padding: 2.5%;display:inline-block;
+#pass{font-size:80%;border-radius:7px;font-family:Helvetica;padding: 2.5%;display:inline;margin-top: 2%;
 ;}
-#enter{position:absolute;left:130%;top:28%;font-size:120%;border-radius:7px;font-family:"arial black";display:inline-block;
-background-color:#6161FF;color:white;padding:1.5%;width:65%;height:40%;border:solid 1px #000000;}
+#enter{position:absolute;left:130%;top:30%;font-size:110%;border-radius:10%;font-family:"arial black";display:inline;
+background-color:#6161FF;color:white;padding:1.5%;width:55%;height:35%;border:solid 1px #000000;}
+#footer { display: inline;position: absolute;top:115%;width: 180%;
+}
+@media all and (max-width:1365px){
+	.body{font-size: 103%;}
+ #logo{position:absolute;left:46.7%;width: 12%;
+ top:3.5%;height:9%;}
+ .titleAr,.titleAr2{position:absolute;top:1%;right: 3%;margin-top: 5%;}
+ .titleEn,.titleEn2{position:absolute;top:1%;margin-top: 7%;}
+ .titleEn2{position:absolute;top:5.7%;left:4%;}
+ .titleAr2{position:absolute;top:6%;right: 6%;}
+ #subtitle1{position:absolute;top:19%;font-size: 250%;left: 14%;}
+ #subtitle2{position:absolute;top:25%;font-size: 250%;left: 8%;}
+ #textfield{position:absolute;top:34%;font-size: 210%;left:25%;}
+ #enter{position:absolute;top:30%;left: 112%; }
+ #footer {position:absolute;top:150%;left: 17%;}
+}
