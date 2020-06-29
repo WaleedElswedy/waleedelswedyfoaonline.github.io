@@ -1,4 +1,18 @@
 
+@media all and (max-width:640px){
+	.body{font-size: 103%;}
+ #logo{position:absolute;left:46.7%;width: 10%;
+ top:3.5%;height:8.5%;}
+ .titleAr,.titleAr2{position:absolute;top:1%;right: 3%;margin-top: 7%;}
+ .titleEn,.titleEn2{position:absolute;top:1%;margin-top: 7%;}
+ .titleEn2{position:absolute;top:5.7%;left:4%;}
+ .titleAr2{position:absolute;top:6%;right: 6%;}
+ #subtitle1{position:absolute;top:19%;left: 14%;color: red;}
+ #subtitle2{position:absolute;top:25%;left: 8%;}
+ #textfield{position:absolute;top:34%;font-size: 250%;left:25%;}
+ #enter{position:absolute;top:30%;left: 112%; }
+ #footer {position:absolute;top:150%;left: 17%;}
+}
 h1{display:inline;
 	position:absolute;}
 .body:before{background-image:url("../images/ag9.jpg");background-repeat:no-repeat;background-size:cover;background-attachment:fixed;
@@ -41,17 +55,4 @@ text-shadow:5px 5px 4px #000000;font-family:Helvetica;
 background-color:#6161FF;color:white;padding:1.5%;width:55%;height:35%;border:solid 1px #000000;}
 #footer { display: inline;position: absolute;top:115%;width: 180%;
 }
-@media all and (max-width:1365px){
-	.body{font-size: 103%;}
- #logo{position:absolute;left:46.7%;width: 10%;
- top:3.5%;height:8.5%;}
- .titleAr,.titleAr2{position:absolute;top:1%;right: 3%;margin-top: 7%;}
- .titleEn,.titleEn2{position:absolute;top:1%;margin-top: 7%;}
- .titleEn2{position:absolute;top:5.7%;left:4%;}
- .titleAr2{position:absolute;top:6%;right: 6%;}
- #subtitle1{position:absolute;top:19%;left: 14%;}
- #subtitle2{position:absolute;top:25%;left: 8%;}
- #textfield{position:absolute;top:34%;font-size: 250%;left:25%;}
- #enter{position:absolute;top:30%;left: 112%; }
- #footer {position:absolute;top:150%;left: 17%;}
-}
+
