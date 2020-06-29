@@ -52,5 +52,11 @@ and (max-device-width : 480px) {
 		.body:before{background-image: url("../images/a.jpg")}
 
 	}
+	/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+	.body:before{background-image: url("../images/b.jpg")}
+
+}
 
 
