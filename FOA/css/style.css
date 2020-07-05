@@ -13,7 +13,7 @@ background-size:cover;background-attachment: fixed ;
   filter: blur(3.1px);
 }
 
-#logo{display: inline;position:relative;margin-top:2%;
+#logo{display: inline;position:relative;margin-top: 2%;left:35%;
   width:30%;min-width: 50px;max-width: 105px;
 
 		}
@@ -36,7 +36,7 @@ background-size:cover;background-attachment: fixed ;
          h3:first-of-type{display:inline-block;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
              text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
              position:relative;text-align: center;font-size:5vw;
-             margin-top: 7%;font-size-adjust: auto;}
+             margin-top: 5%;font-size-adjust: auto;}
          h3:last-of-type{display:inline-block;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
             text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
             position:relative;text-align: center;font-size:5vw;
@@ -44,7 +44,7 @@ background-size:cover;background-attachment: fixed ;
 
     textfield {color:white;display: inline;}
           i[class^="fas"]{margin-left:5%;}
-          #name{font-size:85%;width: 75%;margin-left: 3%;margin-top: 10%;display:inline;position:relative;}
+          #name{font-size:85%;width: 75%;margin-left: 3%;margin-top: 8%;display:inline;position:relative;}
           #pass{font-size:85%;width: 75%;margin-left: 3%;margin-top: 3%;display: inline;}
           #enter{font-weight: bolder;margin-left: 52%;width:40%;margin-top: 3%;}
           #footer{font-family: cursive;font-size: 80%;position:relative;left:4%;
