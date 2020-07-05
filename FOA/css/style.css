@@ -39,7 +39,7 @@ background-size:cover;background-attachment: fixed , scroll;
              line-height:45px;font-size-adjust: auto;}
          h3:last-of-type{display:inline;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
             text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
-            position:relative;text-align:justify;font-size:5vw;
+            position:relative;text-align:center;font-size:5vw;
             line-height:normal;font-size-adjust: auto;}
 
     textfield {color:white;display: inline;}
