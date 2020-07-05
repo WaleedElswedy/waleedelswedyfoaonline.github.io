@@ -1,6 +1,6 @@
 html { font-size: calc(1em + 1vw) }
 .body:before{background-image:url("../images/ag9.jpg");background-repeat:no-repeat;
-background-size:cover;background-attachment: scroll;
+background-size:cover;background-attachment: fixed , scroll;
   content: "";
   position: fixed;
   left:0 ;
@@ -27,19 +27,19 @@ background-size:cover;background-attachment: scroll;
 	       }*/
          h1:first-of-type{display:inline-grid;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
             text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
-            position:absolute;left:10%;top: 5%;font-size:7vw;}
+            position:relative;left:10%;font-size:7vw;}
          h2:first-of-type{display:inline-block;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
              text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
-             position:relative;left:15%;top: 10%;font-size:7vw;
+             position:relative;left:15%;font-size:7vw;
              line-height:60px;font-size-adjust: auto;}
          h3:first-of-type{display:inline-block;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
              text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
-             position:absolute;left:7%;top: 21%;font-size:5vw;
-             line-height:65px;font-size-adjust: auto;}
+             position:relative;text-align: center;font-size:5vw;
+             line-height:45px;font-size-adjust: auto;}
          h3:last-of-type{display:inline;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
             text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
-            position:relative;left:1.5%;top: 32%;font-size:4vw;
-            line-height:110px;font-size-adjust: auto;}
+            position:relative;left:1%;font-size:5vw;
+            line-height:normal;font-size-adjust: auto;}
 
     textfield {color:white;display: inline;}
           #name{font-size:80%;width: 90%;margin-left: 5%;display:inline;position:relative;}
