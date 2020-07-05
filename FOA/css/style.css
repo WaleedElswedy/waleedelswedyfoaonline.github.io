@@ -1,6 +1,6 @@
 html { font-size: calc(1em + 1vw) }
 .body:before{background-image:url("../images/ag9.jpg");background-repeat:no-repeat;
-background-size:cover;background-attachment: fixed;
+background-size:cover;background-attachment: scroll;
   content: "";
   position: fixed;
   left:0 ;
