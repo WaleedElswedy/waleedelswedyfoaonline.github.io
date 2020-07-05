@@ -26,7 +26,7 @@ background-size:cover;background-attachment: fixed , scroll;
 .titleEn{display:inline;position:absolute;left:50%;top:5%;font-size:3vw;color:#ffffff;margin-top: 2%;
 	       text-shadow:4px 4px 4px #000000,-4px -4px 4px black;line-height: 5%;
 	       }*/
-         h1:first-of-type{display:inline-grid;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
+         h1:first-of-type{display:inline-block;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
             text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
             position:relative;left:10%;font-size:7vw;}
          h2:first-of-type{display:inline-block;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
@@ -37,7 +37,7 @@ background-size:cover;background-attachment: fixed , scroll;
              text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
              position:relative;text-align: center;font-size:5vw;
              line-height:45px;font-size-adjust: auto;}
-         h3:last-of-type{display:inline;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
+         h3:last-of-type{display:inline-block;color:#ffffff;font-family:"arabic-typesetting";font-weight: bolder;
             text-shadow:4px 4px 4px #000000,-4px -4px 4px black;
             position:relative;text-align:center;font-size:5vw;
             line-height:normal;font-size-adjust: auto;}
