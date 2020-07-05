@@ -13,7 +13,7 @@ background-size:cover;background-attachment: fixed ;
   filter: blur(3.1px);
 }
 
-#logo{display: inline;position:relative;margin-top:5%;
+#logo{display: inline;position:relative;margin-top:2%;
   width:30%;min-width: 50px;max-width: 105px;
 
 		}
