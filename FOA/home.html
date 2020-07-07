@@ -1,30 +1,4 @@
-<?php
-// We need to use sessions, so you should always start sessions using the below code.
-session_start();
-// If the user is not logged in redirect to the login page...
-if (!isset($_SESSION['loggedin'])) {
-	header('Location: index.html');
-	exit;
-}
-$DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'root';
-$DATABASE_PORT = 8889;
-$DATABASE_PASS = 'root';
-$DATABASE_NAME = 'phplogin';
-// Try and connect using the info above.
-$con = mysqli_connect("$DATABASE_HOST:$DATABASE_PORT", $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
-if ( mysqli_connect_errno() ) {
-	// If there is an error with the connection, stop the script and display the error.
-	exit('Failed to connect to MySQL: ' . mysqli_connect_error());}
-	// We don't have the password or email info stored in sessions so instead we can get the results from the database.
-$stmt = $con->prepare('SELECT fname, email FROM accounts WHERE id = ?');
-// In this case we can use the account ID to get the account info.
-$stmt->bind_param('i', $_SESSION['id']);
-$stmt->execute();
-$stmt->bind_result($fname, $email);
-$stmt->fetch();
-$stmt->close();
-?>
+
 <!doctype html>
 <html lang = "en">
 <head> <link rel = "icon" type = "image/png" href = "images/1.png"/>
@@ -47,7 +21,7 @@ crossorigin="anonymous">
 <body id="body">
           <header>
                 <h1 id="welcome" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">مرحبــا</h1>
-								<h1 id="doctorname" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><?=$fname?></h1>
+								<h1 id="doctorname" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">زوووووووومىىىىىىىىى</h1>
 								<h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">اتشــرف بخدمتكــم أ/وليـد رمضـان السويـدى</h2>
                 <nav class="navbar navbar-light justify" style="background-color: #EFFF9E;">
 										<a href="logout.php" class="mainlinks">خروج</a>
