@@ -9,10 +9,10 @@ background-repeat:no-repeat;
 background-size:cover;
 background-attachment: fixed ;
 position: relative;
-z-index:-1;
-display: block;
+
+display: inline-block;
 width: 100%;
-height: 100%;
+height:auto;
 background-blend-mode: overlay;
 text-align:center;
 }
@@ -52,7 +52,7 @@ a[href^="menu3"]{display: none;}
 color:#002AFF;
 font-weight: bolder;
 font-size:5vw;
-text-decoration: none;border:2px solid transperancy;border-radius: 50px;font-family:"arabic-typesetting";
+text-decoration: underline;border:2px solid transperancy;border-radius: 50px;font-family:"arabic-typesetting";
 }
 
 /*
@@ -79,7 +79,8 @@ font-size:190%;}
 }
 .mainlinks:hover {opacity:1;}
 #active {opacity:1;color:red;text-shadow:4px 4px 4px white , 6px 6px 6px black;}
-	 iframe{display:inline;width: 87%;height: 65vh;position:relative;left:10%;top:49%;margin-top: 2%;}
+	 iframe{display:inline;width: 100%;height: 85vh;position:relative;margin-top: 2%;
+   }
 
     /* tablets and desktop
     /*
@@ -100,30 +101,30 @@ font-size:190%;}
       #list{font-size: 4.5vw;}
    }
    @media screen and (min-width: 576px) {
-   h1{font-size: 4.5vw;}
-   h2{font-size: 4vw;}
-   .mainlinks {font-size: 4vw;}
+   h1{font-size: 4.5vw;;line-height: 55px;}
+   h2{font-size: 4vw;;line-height: 55px;}
+   .mainlinks {font-size: 3.5vw;}
   #title{font-size: 4vw;}
-    #list{font-size: 3vw;}
+    #list{font-size: 3vw;margin-top:-3%;}
    }
    @media screen and (min-width: 768px) {
-     h1{font-size: 5vw;font-family: "Lateef"}
-     h2{font-size: 4vw;font-family: "Lateef"}
+     h1{font-size: 5vw;font-family: "Lateef";line-height: 70px;}
+     h2{font-size: 4vw;font-family: "Lateef";line-height: 70px;}
      .mainlinks {font-size: 4vw;font-family: "Lateef"}
     #title{font-size: 4vw;font-family: "Lateef"}
-      #list{font-size: 3vw;font-family: "Lateef"}
+      #list{font-size: 3vw;font-family: "Lateef";margin-top:-3%}
    }
   @media screen and (min-width: 900px) {
-    h1{font-size: 3.5vw;font-family: "Lateef"}
-    h2{font-size: 2.5vw;font-family: "Lateef"}
+    h1{font-size: 4vw;font-family: "Lateef";line-height: 70px;}
+    h2{font-size: 3.5vw;font-family: "Lateef";line-height: 70px;}
     .mainlinks {font-size: 3vw;font-family: "Lateef"}
    #title{font-size: 3.5vw;font-family: "Lateef"}
-     #list{font-size: 3vw;line-height: 45px;font-family: "Lateef"}
+     #list{font-size: 3vw;line-height: 45px;font-family: "Lateef";margin-top:-3%}
    }
     @media screen and (min-width: 1200px) {
-      h1{font-size: 3.5vw;font-family: "Lateef"}
-      h2{font-size: 3vw;font-family: "Lateef"}
+      h1{font-size: 3.5vw;font-family: "Lateef";line-height: 70px;}
+      h2{font-size: 3vw;font-family: "Lateef";line-height: 70px;}
       .mainlinks {font-size: 3.5vw;font-family: "Lateef"}
-     #title{font-size: 3vw;font-family: "Lateef"}
-       #list{font-size: 2.5vw;line-height: 45px;font-family: "Lateef"}
+     #title{font-size: 3.5vw;font-family: "Lateef"}
+       #list{font-size: 3vw;line-height: 50px;font-family: "Lateef";margin-top:-3%;}
     }
