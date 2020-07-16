@@ -49,7 +49,7 @@ crossorigin="anonymous">
           <header>
 						<h1 id="welcome" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">مرحبــا</h1>
 						<h1 id="doctorname" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><?=$fname?></h1>
-						<h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">أتشرف بخدمتكم أ/وليد رمضان السويدى</h2>
+						<h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">اتشرف بخدمتكم أ / وليد رمضان السويدى</h2>
 						<nav class="navbar navbar-light justify" style="background-color: #EFFF9E;">
 								<a href="logout.php" class="mainlinks">خروج</a>
 								<a href="menu3.php" class="mainlinks">قائمـة 3</a>
@@ -58,9 +58,80 @@ crossorigin="anonymous">
                 <a href="home.php" class="mainlinks">الرئيسيـة</a>
                 </nav>
           </header>
-          <div>
-					<iframe src="1/1.pdf"></iframe>
+					<h2 id="date">
+						<script>
+					function reportpreview(){document.getElementById('opop').style.display="block";}
+									var d = new Date();
+
+									var date = d.getDate();
+									var weekday = new Array(7);
+weekday[0] = "الاحد Sun.";
+weekday[1] = "الاثنين Mon.";
+weekday[2] = "الثلاثاء Tue.";
+weekday[3] = "الاربعاء Wed.";
+weekday[4] = "الخميس Thu.";
+weekday[5] = "الجمعة Fri.";
+weekday[6] = "السبت Sat.";
+
+var w = weekday[d.getDay()];
+
+var month = new Array();
+month[0] = "يناير Jan.";
+month[1] = "فبراير Feb.";
+month[2] = "مارس Mar.";
+month[3] = "ابريل Apr.";
+month[4] = "مايو May";
+month[5] = "يونيو Jun.";
+month[6] = "يوليو Jul.";
+month[7] = "اغسطس Aug.";
+month[8] = "سبتمبر Sept.";
+month[9] = "اكتوبر Oct.";
+month[10] = "نوفمبر Nov.";
+month[11] = "ديسمبر Dec.";
+var n = month[d.getMonth()];
+									var year = d.getFullYear();
+
+									var dateStr = year + " " + n + " " + date + " " + w;
+									 document.write(dateStr);
+									</script>
+									</h2>
+		<h2 id="duedate">
+      <script>
+function setIframeSource() {
+	 // behavior of myIframe
+	 var theSelect = document.getElementById('location');
+	 var theIframe = document.getElementById('myIframe');
+	 var theUrl;
+	 theUrl = theSelect.options[theSelect.selectedIndex].value;
+	 theIframe.src = theUrl;
+}
+</script>
+
+
+<form id="form1" method="post">
+
+
+<select id="location" >
+<option value="Data/Jan/<?=$_SESSION['id']?>.pdf">يناير</option>
+<option value="Data/Feb/<?=$_SESSION['id']?>.pdf">فبراير</option>
+<option value="Data/March/<?=$_SESSION['id']?>.pdf">مارس</option>
+<option value="Data/April/<?=$_SESSION['id']?>.pdf">ابريل</option>
+<option value="Data/May/<?=$_SESSION['id']?>.pdf">مايو</option>
+<option value="Data/Jun/<?=$_SESSION['id']?>.pdf">يونيو</option>
+<option value="Data/July/<?=$_SESSION['id']?>.pdf">يوليو</option>
+<option value="Data/August/<?=$_SESSION['id']?>.pdf">اغسطس</option>
+<option value="Data/Sept/<?=$_SESSION['id']?>.pdf">سبتمبر</option>
+<option value="Data/Oct/<?=$_SESSION['id']?>.pdf">اكتوبر</option>
+<option value="Data/Nov/<?=$_SESSION['id']?>.pdf">نوفمبر</option>
+<option value="Data/Dec/<?=$_SESSION['id']?>.pdf">ديسمبر</option>
+</select>
+<label id="label1"> اختر شهر الاستحقاق</label>
+</form>
+<button type="button" class="btn btn-success btn-md btn-block" id="reportviewer" onclick="setIframeSource()"> عرض التقرير </button>
+</h2>
+<iframe id="myIframe" src="" title="التقرير المالى" style="border:3px solid black;" </iframe>
 					</div>
+
 					<!-- JS, Popper.js, and jQuery -->
           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
           integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
