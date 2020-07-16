@@ -1,5 +1,6 @@
 
 
+
 html { font-size: calc(1em + 1vw) }
 body{background-color: #A0D6E4;}
 
@@ -46,6 +47,7 @@ div.transbox p {
 nav[class^="navbar"]{height: auto;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;position: relative;
   border-bottom:1px solid brown;}
 a[href^="menu3"]{display: none;}
+a[href^="menu2"]{display: none;}
 
 
 .mainlinks {display:block;float: right;
@@ -63,10 +65,10 @@ font-size:190%;}
 #section1 {display:inline-block;background-image:linear-gradient(to left,#99FFB3,#E0FFF9);margin-top:0.5%;padding: 2%;
   float:right;width:17%;height:100vh;border-top: solid 2px transperancy;border-top-right-radius: 25px;}
   */
-#section2 {display:block;position:relative;background-color:white;font-family: "Lateef";margin:auto;padding: 3%;margin-top:2%;
+#section2 {display:block;position:relative;background-color:white;font-family: "Lateef";margin:auto;padding: 1%;margin-top:1%;
   width:90.5%;border-radius: 10px;}
 #title{color:blue; text-decoration : none; font-weight: bolder ;
-  text-align: center;font-size: 7vw;padding-top: 0.5%;font-family:"arabic-typesetting";padding:3%;
+  text-align: center;font-size: 7vw;font-family:"arabic-typesetting";padding:2%;
   background-color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -77,9 +79,14 @@ font-size:190%;}
   border-bottom-left-radius: 10px;
   border-bottom-right-radius:10px;line-height: 30px;
 }
+#date{margin: auto;font-size: 0.5em;line-height: 30px;}
+#duedate{margin: auto;line-height: normal;}
+#label1{line-height: normal;color:black;font-size: 1em}
+#location{display: inline-block;width: 50%;height: 6%;font-size: 1em;color:red;font-weight: bolder;line-height: normal;}
+#reportviewer{font-size: 1em;font-weight: bolder;font-family:"arabic-typesetting";line-height: normal;}
 .mainlinks:hover {opacity:1;}
 #active {opacity:1;color:red;text-shadow:4px 4px 4px white , 6px 6px 6px black;}
-	 iframe{display:inline;width: 100%;height: 100vh;position:relative;margin-top: 2%;
+	 iframe{display:inline-block;width: 95%;height: 100vh;position:relative;margin-top: 2%;margin-left: 2%;
    }
 
     /* tablets and desktop
@@ -94,37 +101,50 @@ font-size:190%;}
    }
    */
    @media screen and (min-width: 378px) {
-     h1{font-size: 5.5vw;}
-     h2{font-size: 4.5vw;}
-     .mainlinks {font-size: 4.5vw;}
-    #title{font-size: 5vw;}
-      #list{font-size: 4.5vw;}
+     h1{font-size: 4.5vw;}
+     h2{font-size: 3.5vw;}
+     .mainlinks {font-size: 4vw;}
+     #date{font-size: 0.60em;line-height: 30px;}
+     #location{width: 50%;height: 7%;font-size: 1em;}
+    #title{font-size: 4vw;}
+      #list{font-size: 3.5vw;}
    }
    @media screen and (min-width: 576px) {
    h1{font-size: 4.5vw;;line-height: 55px;}
    h2{font-size: 4vw;;line-height: 55px;}
    .mainlinks {font-size: 3.5vw;}
+   #date{font-size: 0.75em;line-height: 30px;}
+    #location{width: 30%;height: 7%;font-size: 1em;line-height:normal;}
+    #reportviewer{display:inline-block;width:25%;height: 10%;font-size: 0.80em;line-height: normal;margin-bottom: 1%;}
   #title{font-size: 4vw;}
     #list{font-size: 3vw;margin-top:-3%;}
    }
    @media screen and (min-width: 768px) {
-     h1{font-size: 5vw;font-family: "Lateef";line-height: 70px;}
-     h2{font-size: 4vw;font-family: "Lateef";line-height: 70px;}
-     .mainlinks {font-size: 4vw;font-family: "Lateef"}
+     h1{font-size: 4.5vw;font-family: "Lateef";line-height: 70px;}
+     h2{font-size: 3.5vw;font-family: "Lateef";line-height: 70px;}
+     .mainlinks {font-size: 3.5vw;font-family: "Lateef"}
+     #date{font-size: 1em;line-height: 50px;}
+     #location{width: 25%;height: 7%;font-size: 1em;}
+     #reportviewer{display:inline-block;width:25%;height: auto;font-size: 0.75em;margin-bottom: 1%;}
     #title{font-size: 4vw;font-family: "Lateef"}
       #list{font-size: 3vw;font-family: "Lateef";margin-top:-3%}
    }
   @media screen and (min-width: 900px) {
     h1{font-size: 4vw;font-family: "Lateef";line-height: 70px;}
     h2{font-size: 3.5vw;font-family: "Lateef";line-height: 70px;}
-    .mainlinks {font-size: 3vw;font-family: "Lateef"}
+    .mainlinks {font-size: 3.5vw;font-family: "Lateef"}
+    #date{font-size: 1em;line-height: 50px;}
+     #location{width: 25%;height: auto;font-size: 0.75em;}
+     #reportviewer{display:inline-block;width:25%;height: auto;font-size: 0.6em;}
    #title{font-size: 3.5vw;font-family: "Lateef"}
      #list{font-size: 3vw;line-height: 45px;font-family: "Lateef";margin-top:-3%}
    }
     @media screen and (min-width: 1200px) {
       h1{font-size: 3.5vw;font-family: "Lateef";line-height: 70px;}
       h2{font-size: 3vw;font-family: "Lateef";line-height: 70px;}
-      .mainlinks {font-size: 3.5vw;font-family: "Lateef"}
+      .mainlinks {font-size: 3vw;font-family: "Lateef"}
+      #date{font-size: 1em;line-height: 50px;}
+      #reportviewer{display:inline-block;width:25%;height: auto;font-size: 0.6em;}
      #title{font-size: 3.5vw;font-family: "Lateef"}
        #list{font-size: 3vw;line-height: 50px;font-family: "Lateef";margin-top:-3%;}
     }
